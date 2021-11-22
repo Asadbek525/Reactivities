@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.NET\\Reactivities\\API\\API.csproj": {}
+    "D:\\ASP.NET\\Reactivities\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\ASP.NET\\Reactivities\\API\\API.csproj": {
+    "D:\\ASP.NET\\Reactivities\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "D:\\ASP.NET\\Reactivities\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\ASP.NET\\Reactivities\\API\\API.csproj",
+        "projectPath": "D:\\ASP.NET\\Reactivities\\api\\API.csproj",
         "packagesPath": "C:\\Users\\qarsh\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET\\Reactivities\\API\\obj\\",
+        "outputPath": "D:\\ASP.NET\\Reactivities\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\qarsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -119,6 +119,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
